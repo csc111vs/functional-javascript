@@ -4,6 +4,7 @@
 ## Contents
 
 1. [Introduction](#introduction)
+1. [First Class Functions](#first-class-functions)
 1. [Functional Purity](#functional-purity)
 1. [Higher Order Functions](#higher-order-functions)
 1. [Array Functions](#array-functions)
@@ -21,7 +22,8 @@
 
 ## Introduction
 * Functional programming helps developers to abstract common collection operations into reusable and composable building blocks.
-## First-Class Functions
+ 
+## First Class Functions
 * Function can be used anywhere that any other value can be passed.
 * i.e. similar to the usage of values, functions can  be stored in arrays, passed in functions and  assigned to variables too.
 * Example:
