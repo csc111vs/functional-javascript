@@ -4,12 +4,12 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-1. [Functional Purity](#purity)
-1. [Higher-Order Functions](#higherOrder)
+1. [Functional Purity](#functional-purity)
+1. [Higher Order Functions](#higher-order-functions)
 1. [Closures](#closures)
 1. [Currying](#currying)
 1. [Composing](#composing)
-1. [Further Reading / Useful Links](#reference)
+1. [Further Reading](#further-reading)
 
 
 
