@@ -256,7 +256,7 @@ It is a modern JavaScript utility library offers high performance and modularity
 ### [Underscore](http://underscorejs.org/)
 * Underscore is a JavaScript library that provides lot of useful functional programming helpers.
 
-## Further Reading / Useful Links
+## Further Reading
 
 ###### [Functional Javascript with Ramda](https://github.com/MostlyAdequate/mostly-adequate-guide/tree/69ebed50eded952a86082fb7ac745db7323d3e91)
 ###### [From Map/Reduce to JavaScript Functional Programming](https://hacks.mozilla.org/2015/01/from-mapreduce-to-javascript-functional-programming/)
