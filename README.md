@@ -233,7 +233,7 @@ var shout = compose(exclaim, toUpperCase);
 shout("send in the clowns");
 //=> "SEND IN THE CLOWNS!"
 ```
-Composition of multiple functions
+* Composition of multiple functions
 ```js
 // previously we'd have to write two composes, but since it's associative, we can give compose as many fn's as we like and let it decide how to group them.
 var lastUpper = compose(toUpperCase, head, reverse);
@@ -253,7 +253,7 @@ loudLastUpper(['jumpkick', 'roundhouse', 'uppercut']);
 * A practical functional library for Javascript programmers. Ramda is designed specifically for a functional programming style, one that makes it easy to create functional pipelines and never mutates user data.
 
 ### [lodash](https://lodash.com/)
-It is a modern JavaScript utility library offers high performance and modularity.
+* It is a modern JavaScript utility library offers high performance and modularity.
 
 ### [Underscore](http://underscorejs.org/)
 * Underscore is a JavaScript library that provides lot of useful functional programming helpers.
