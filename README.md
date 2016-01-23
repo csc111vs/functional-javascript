@@ -6,6 +6,7 @@
 1. [Introduction](#introduction)
 1. [Functional Purity](#functional-purity)
 1. [Higher Order Functions](#higher-order-functions)
+1. [Array Functions](#array-functions)
 1. [Closures](#closures)
 1. [Currying](#currying)
 1. [Composing](#composing)
@@ -112,6 +113,7 @@ function song(start, end, lyricGen) {
 
 song(99, 0, f);
 ```
+## Array Functions
 ### Traversing an Array
 ```js
     var names = ["Ben", "Jafar", "Matt", "Priya", "Brian"];
