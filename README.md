@@ -1,7 +1,7 @@
 # Functional Javascript
 
 
-## Table of Contents
+## Contents
 
 1. [Introduction](#introduction)
 1. [Functional Purity](#functional-purity)
@@ -9,6 +9,7 @@
 1. [Closures](#closures)
 1. [Currying](#currying)
 1. [Composing](#composing)
+1. [Libraries](#libraries) 
 1. [Further Reading](#further-reading)
 
 
@@ -246,10 +247,11 @@ var loudLastUpper = compose(exclaim, toUpperCase, head, reverse)
 loudLastUpper(['jumpkick', 'roundhouse', 'uppercut']);
 //=> 'UPPERCUT!'
 ```
-## Underscore, lodash and Ramda
+## Libraries
 
 ### [Ramda](http://ramdajs.com/) 
 * A practical functional library for Javascript programmers. Ramda is designed specifically for a functional programming style, one that makes it easy to create functional pipelines and never mutates user data.
+
 ### [lodash](https://lodash.com/)
 It is a modern JavaScript utility library offers high performance and modularity.
 
