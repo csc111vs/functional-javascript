@@ -29,19 +29,18 @@
 * Example:
 
 ```js
+// storing a function in a variable
+var fortytwo = function() { return 42 };
+// storing a function in an array
+var fortytwos = [42, function() { return 42 }];
 
-var hi = function(name){
-  return "Hi " + name;
-};
-
-var greeting = function(name) {
-  return hi(name);
-};
-// instead greeting can be written as
-greeting  = hi
-
-greeting('Jones'); // Hi Jones
-
+// function returned in a function
+function song(start, end, lyricGen) {
+ return _.reduce(_.range(start,end,-1),
+  function(acc,n) {
+   return acc.concat(lyricGen(n));
+  }, []);
+}
 ```
 
 * Here, the function wrapper around `hi` in `greeting` is completely redundant. 
